@@ -1,0 +1,12 @@
+# Cache dell'interprete Python
+-_pycache-_/
+*.pyc
+# Ambienti virtuali
+.venv/
+venv/
+# File di stato dei notebook Jupyter
+.ipynb_checkpoints/
+# File temporanei di Windows e degli editor
+Thumbs.db
+desktop.ini
+*.tmp
