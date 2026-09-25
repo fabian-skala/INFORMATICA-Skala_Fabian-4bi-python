@@ -75,3 +75,33 @@ git status
         new file:   M6_Programmazione_orientata/README.md
         new file:   M8_Programmazione_concorrente_rete/README.md
 
+
+# ES 7
+
+## comandi 
+
+
+git add .gitignore
+
+git commit -m "Aggiunge .gitignore per cache Python, venv, notebook e file Windows"
+
+py -3.14 -m venv M0_ambiente\.venv
+
+git status
+
+git check-ignore -v M0_ambiente/.venv/pyvenv.cfg
+
+## output
+
+     .gitignore:7:.venv/ M0_ambiente/.venv/pyvenv.cfg
+
+
+# ES 8
+
+## comandi
+
+     ssh-keygen -t ed25519 -C "tuaemail@esempio.com"
+     type $env:USERPROFILE\.ssh\id_ed25519.pub
+     ssh -T git@github.com
+
+
